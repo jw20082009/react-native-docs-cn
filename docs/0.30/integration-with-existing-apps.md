@@ -34,17 +34,17 @@
 
 ## 核心概念
 
-React Native is great when you are starting a new mobile app from scratch. However, it also works well for adding a single view or user flow to existing native applications. With a few steps, you can add new React Native based features, screens, views, etc.
+当你开始一个全新的移动应用的时候React Native表现的很优秀。 然而,他在添加一个view或者一套用户流程到一个已经存在的原生应用中时也同样表现很优秀。 只需几步, 你就可以添加新的基于React Native的 features, screens, views, 例如.
 
 </div>
 <div markdown class="md-block objc swift">
 
-The keys to integrating React Native components into your iOS application are to:
+集成React Native组件到你的iOS应用中的关键在于:
 
-1. Understand what React Native components you want to integrate.
-2. Create a `Podfile` with `subspec`s for all the React Native components you will need for your integration.
-3. Create your actual React Native components in JavaScript.
-4. Add a new event handler that creates a `RCTRootView` that points to your React Native component and its `AppRegistry` name that you defined in `index.ios.js`.
+1. 清楚的理解你想要集成的React Native组件.
+2.  通过使用`subspec`s来创建一个`Podfile`,用于所有你需要用到的React Native组件.
+3. 使用JavaScript来创建你真正的React Native组件.
+4. 添加一个新的事件句柄a `RCTRootView` that points to your React Native component and its `AppRegistry` name that you defined in `index.ios.js`.
 5. Start the React Native server and run your native application.
 6. Optionally add more React Native components.
 7. [Debug](debugging.html).
